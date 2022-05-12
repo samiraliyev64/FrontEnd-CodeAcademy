@@ -1,0 +1,31 @@
+//variables
+$primary-font-family:'Arial', sans-serif;
+$primary-font-size:50px;
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: $primary-font-family;
+}
+
+.title p{
+    font-size:$primary-font-size;
+}
+
+.title p:nth-child(2){
+    margin-top:-10px;
+}
+
+.card-container{
+    display:flex;
+}
+
+.card-item{
+    display:flex;
+    margin-top: 50px;
+}
+
+.card-item .text{
+    margin-left:20px;
+}
