@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  padding-bottom: 50px;
+}
+
+.title p {
+  font-size: 50px;
+}
+
+.title p:nth-child(1) {
+  font-weight: 100;
+  color: #5C5C5C;
+}
+
+.title p:nth-child(2) {
+  margin-top: -45px;
+  font-weight: bolder;
+  color: #4A4A4A;
+}
+
+#text {
+  width: 600px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-family: 'Lato';
+  color: #4A4A4A;
+}
+
+.line img {
+  width: 122px;
+  height: 3px;
+}
+
+.card-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  margin-left: -10px;
+}
+
+.card-item .text {
+  margin-left: 20px;
+}
+
+.text h3 {
+  font-size: 21px;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+.text a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+.card-item .image img {
+  width: 208.6px;
+  height: 208.6px;
+}
+
+.card-item .text {
+  margin-left: 45px;
+}
+
+.card-item .text p {
+  position: relative;
+  margin-top: -3px;
+  width: 290px;
+}
+
+.card-item:nth-child(2), .card-item:nth-child(4) {
+  margin-left: 10px;
+}
+
+#mentor-text {
+  width: 270px;
+}
+
+.text a {
+  position: relative;
+  top: 3px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    margin-left: -9px;
+  }
+  .card-item .text p {
+    width: 265px;
+  }
+  .card-item:nth-child(1) .text p {
+    width: 256px;
+  }
+  .card-item:nth-child(2) .text p {
+    width: 265px;
+  }
+  #mentor-text {
+    width: 260px;
+  }
+  .row {
+    margin-left: 15px;
+    width: 1120px;
+  }
+  .card-item:nth-child(2), .card-item:nth-child(4) {
+    margin-left: 9px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card-item:nth-child(2), .card-item:nth-child(4) {
+    margin-left: -11px;
+  }
+  .container {
+    margin-left: 40px;
+  }
+  .row {
+    margin-left: -60px;
+  }
+  .card-item .text p {
+    width: 457px;
+  }
+  #mentor-text {
+    width: 427px;
+  }
+  #text p {
+    width: 364px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    margin-left: 5px;
+  }
+  .row {
+    margin-left: -65px;
+  }
+  .card-item:nth-child(2), .card-item:nth-child(4) {
+    margin-left: -11px;
+  }
+  .card-item:nth-child(2) .text p, .card-item:nth-child(4) .text p {
+    font-size: 16px;
+    width: 670px;
+  }
+  #text p {
+    width: 686px;
+  }
+  .title p {
+    font-size: 34px;
+  }
+  .title p:nth-child(2) {
+    margin-top: -40px;
+  }
+  .card-item .text p {
+    width: 665px;
+  }
+  #mentor-text {
+    width: 665px;
+  }
+  .image img {
+    display: none;
+  }
+}
